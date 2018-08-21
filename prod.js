@@ -13,3 +13,9 @@ module.exports = function(app) {
 // Add the following in the app file:
 
 // require(''./prod')(app);
+
+// Add engines info to your package.json:
+
+// "engines":{
+//   "node": "10.8.0"
+// },
