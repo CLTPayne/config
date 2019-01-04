@@ -9,6 +9,9 @@ Terminal: https://jilles.me/badassify-your-terminal-and-shell/
 Emmet: https://github.com/emmetio/emmet-atom#readme
 Snippets that can be edited / extended at runtime. E.g in an html file: ```html:5``` + tab will give you a template html 5 page.
 
+GitHub: https://medium.com/@ginnyfahs/github-error-authentication-failed-from-command-line-3a545bfd0ca8
+When there is two factor authentication on a GitHub account, you need to create a personal access token in order to access remote repos on GitHub from the command line.
+
 ### Shortcuts:
 
 #### General (from Wesbos):
