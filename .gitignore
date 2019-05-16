@@ -1,5 +1,13 @@
-/**/.DS_Store
-.env
-cypress/screenshots/
+# Project dependencies
+.cache
+.env*
 coverage/
+cypress/screenshots/
 node_modules/
+yarn-error.log
+yarn.lock
+
+# Build directory
+/public
+/dist
+.DS_Store
