@@ -1,0 +1,96 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "jest": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "no-unused-vars": "error",
+        "no-undef": "error",
+        "eqeqeq": "error",
+        "no-underscore-dangle": "off",
+        "guard-for-in": "error",
+        "no-extend-native": "error",
+        "wrap-iife": "error",
+        "no-caller": "error",
+        "quotes": "off",
+        "no-loop-func": "warn",
+        "no-irregular-whitespace": "warn",
+        "no-multi-spaces": "error",
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "no-var": "warn",
+        "no-restricted-imports": [
+            "error",
+            {
+                "paths": [
+                    {
+                        "name": "lodash",
+                        "message": "Cherry pick functions from lodash to avoid bundling the whole library!"
+                    },
+                    {
+                        "name": "moment",
+                        "message": "Use date-fns instead!"
+                    },
+                    {
+                        "name": "date-fns",
+                        "message": "Cherry pick functions from date-fns to avoid bundling the whole library!"
+                    }
+                ],
+                "patterns": [
+                    "!lodash/*",
+                    "!date-fns/*"
+                ]
+            }
+        ],
+        "strict": [
+            "error",
+            "global"
+        ],
+        "no-console": "error",
+        "react/prop-types": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react/display-name": "off",
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore",
+            "allow-pascal-case"
+        ]
+    },
+    "globals": {
+        "__dirname": true,
+        "it": true,
+        "process": true,
+        "require": true,
+        "global": true
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
+    ]
+}
