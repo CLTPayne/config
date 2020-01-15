@@ -32,3 +32,6 @@ When there is two factor authentication on a GitHub account, you need to create 
 2. Advanced history - rather than just flicking through with the up arrow if you know it was an npm command you can type npm and then up arrow to reduce the list running through. OR full on search (so not just the first word) CONTROL + r and you get full on search!
 3. Don’t want to clear your terminal but don’t want to see all the noise. COMMAND + r and it looks like it’s cleared by you can still scroll up and see it all, it’s just taken it off the screen for you.
 4. Plugins can add lots of further options and are listed here - https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
+
+#### Git:
+1. Never have to resolve a merge conflict inside `package-lock.json`. Run this command just once and they will automatically be sorted `npx npm-merge-driver install --global`.
