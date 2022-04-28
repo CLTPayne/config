@@ -1,0 +1,53 @@
+{
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.autoSave": "onFocusChange",
+    "html.format.indentHandlebars": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ],
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "peacock.color": "Pink",
+    "peacock.favoriteColors": [
+      {
+        "name": "Gatsby Purple",
+        "value": "#639"
+      },
+      {
+        "name": "Auth0 Orange",
+        "value": "#eb5424"
+      },
+      {
+        "name": "Azure Blue",
+        "value": "#007fff"
+      }
+    ],
+    "peacock.affectTabActiveBorder": true,
+    "peacock.affectActivityBar": false,
+    "dart.flutterSdkPath": "/Users/charlotte.payne/Documents/flutter",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "window.zoomLevel": -1,
+    "testing.autoRun.mode": "rerun",
+    "testing.openTesting": "neverOpen",
+    "jest.autoRun": "off"
+  }
